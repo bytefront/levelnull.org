@@ -1,1 +1,20 @@
-theme: jekyll-theme-tactile
+name: LevelNull
+description: Just a placeholder site for levelnull.org
+
+# Plugins from the whitelist at https://github.com/github/pages-gem/blob/master/lib/github-pages/plugins.rb
+#plugins:
+#  - jekyll-theme-tactile
+
+#theme: jekyll-theme-tactile
+
+# website address
+url: http://levelnull.org/
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: ''
+
+# This can be '' to hide the Github nav button
+github: 'levelnull/levelnull.org'

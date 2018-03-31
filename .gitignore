@@ -1,2 +1,4 @@
-_support/
-_site/
+/_support/
+/_site/
+/.sass-cache/
+/Gemfile.lock
