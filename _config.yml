@@ -8,7 +8,7 @@ description: Just a placeholder site for levelnull.org
 #theme: jekyll-theme-tactile
 
 # website address
-url: http://levelnull.org/
+url: https://levelnull.org/
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -16,5 +16,17 @@ url: http://levelnull.org/
 #     run it like so: jekyll serve --baseurl=''
 baseurl: ''
 
-# This can be '' to hide the Github nav button
-github: 'levelnull/levelnull.org'
+exclude:
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'CNAME'
+    - 'node_modules'
+
+github:
+    is_project_page: true
+    repository_name: 'levelnull.org'
+    repository_url: 'https://github.com/levelnull/levelnull.org'
+    owner_url: 'https://github.com/levelnull'
+    owner_name: 'LevelNull'
+
+show_downloads: false
