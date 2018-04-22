@@ -1,4 +1,5 @@
 name: LevelNull
+repository: levelnull/levelnull.org
 description: Just a placeholder site for levelnull.org
 
 # Plugins from the whitelist at https://github.com/github/pages-gem/blob/master/lib/github-pages/plugins.rb
